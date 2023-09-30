@@ -1,0 +1,55 @@
+.hero-section {
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+  
+    &:before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #000;
+      opacity: 0.48;
+    }
+  
+    .hero-content {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      color: #fff;
+      z-index: 1;
+  
+      h1 {
+        font-size: 48px;
+        color: orange;
+        margin-bottom: 24px;
+      }
+  
+      p {
+        font-size: 24px;
+        color: orange;
+        margin-bottom: 24px;
+      }
+  
+      button {
+        font-size: 20px;
+        padding: 12px 24px;
+        background-color: orange;
+        color: #fff;
+        border: none;
+        border-radius: 20px;
+        cursor: pointer;
+        &:hover{
+          background-color: #fff;
+          color: black;
+        }
+      }
+    }
+  }
+  

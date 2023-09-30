@@ -1,0 +1,20 @@
+.footer {
+    background-color: rgba(255, 217, 0, 0.781);
+    color: black;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // position: sticky;
+    // bottom: 0;
+  }
+  
+  .footer__message {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+  }
+  
+  .footer__rights {
+    font-size: 0.8rem;
+  }
+  

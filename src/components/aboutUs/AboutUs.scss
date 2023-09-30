@@ -1,0 +1,36 @@
+.about{
+    .about-us-container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #f8f8f8;
+        color: #333;
+        font-family: Arial, sans-serif;
+      
+        .about-us-header {
+          text-align: center;
+          margin-bottom: 30px;
+      
+          .subtitle {
+            font-size: 18px;
+          }
+        }
+      
+        .about-us-section {
+          margin-bottom: 30px;
+      
+          h3 {
+            color: #003366;
+          }
+        }
+      
+        .about-us-footer {
+        //   background-color: rgb(255, 215, 0);
+          padding: 20px;
+        //   color: #fff;
+          text-align: center;
+          font-weight: bold;
+        }
+      }
+      
+}
